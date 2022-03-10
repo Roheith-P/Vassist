@@ -22,9 +22,9 @@ while i < 6:
         webbrowser.open(url)
     elif iput == "weather":
 
-
+        ctname = input("Enter Your City Name: ")
         # enter city name
-        city = "lucknow"
+        city = ctname
 
         # creating url and requests instance
         url = "https://www.google.com/search?q=" + "weather" + city
